@@ -1,4 +1,23 @@
 body {
     background-image: url(./img/wallpaperflare.com_wallpaper\ \(4\).jpg);
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    width: 50%; /* Puedes ajustar el ancho de la tabla según tus necesidades */
+    max-width: 600px; /* Limita el ancho máximo de la tabla */
+}
+
+
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
 }
